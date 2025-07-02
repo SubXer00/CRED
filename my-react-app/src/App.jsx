@@ -1,12 +1,13 @@
-import Cred from './Cred.jsx'
+
+import Crud from "./Crud.jsx";
 
 function App() {
-    
-    return(
-      <>
-        <Cred/>
-      </>
-    );
+  return (
+    <>
+      <Crud />
+    </>
+  );
 }
 
-export default App
+export default App;
+
