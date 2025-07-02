@@ -1,4 +1,4 @@
-import React from "react";
+
 function ConfirmBox({ confirmDelete, cancelDelete }) {
     return (
         <div className="confirm-overlay">

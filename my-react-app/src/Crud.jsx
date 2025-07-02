@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+import { useState } from "react";
 import InputForm from "./InputForm.jsx";
 import OutputList from "./OutputList.jsx";
 import ConfirmBox from "./ConfirmBox.jsx";
@@ -54,7 +54,7 @@ function Crud() {
         const { firstName, lastName, ID, age, email, telephone } = user;
         if (!firstName || !lastName || !ID || !age || !email || !telephone) {
             alert("Please fill in all fields before updating.");
-        return;
+            return;
         }
 
         const updatedEntries = [...entries];

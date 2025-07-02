@@ -1,4 +1,4 @@
-import React from "react";
+
 function OutputList({ entries, handleEdit, handleDelete }) {
     return (
         <div id="outputDiv">
